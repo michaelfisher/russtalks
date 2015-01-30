@@ -1,7 +1,7 @@
 <?php
 
 	// Configuration 
-    $to = "michael@thefisherhome.net"; // Your email address. 
+    $to = "russharrington@me.com"; // Your email address. 
     $subject = "New Signup from RussTalks.com"; // Email subject line 
     
     $email = $_REQUEST['email'];
@@ -17,7 +17,7 @@
 
     $send = mail($to, $subject, $body, $headers);
 
-    $file = $_SERVER['DOCUMENT_ROOT'] . "/" . "logs" . "/" . $email;
-    file_put_contents($file, $name);
+    $logfile = $_SERVER['DOCUMENT_ROOT'] . "/" . "logs" . "/" . $email;
+    file_put_contents($logfile, $name);
 
 ?>
