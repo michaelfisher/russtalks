@@ -1,0 +1,10 @@
+To: name@example.com
+Subject: New signup via the Signup Landing Page
+X-PHP-Originating-Script: 1000:signup.php
+From: michael@thefisherhome.net
+
+Details:
+
+                Name: Mike
+               Email: michael@thefisherhome.net
+
