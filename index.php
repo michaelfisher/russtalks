@@ -67,7 +67,7 @@
 					        <input type="text" name="name" id="name" size="30" value="" required="" class="text login_input align-center"  placeholder="Your name">
 					    </div>
 						<div class="form-row">									     
-					        <input type="text" name="email" id="email" size="30" value="" required="" class="text login_input align-center"  placeholder="Your email address">
+					        <input type="email" name="email" id="email" size="30" value="" required="" class="text login_input align-center"  placeholder="Your email address">
 					    </div>  
 						<div class="form-row">									    
 						    <input id="submit" type="submit" name="submit" value="Download Now!" class="btn btn-wide">

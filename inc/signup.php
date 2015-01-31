@@ -1,7 +1,7 @@
 <?php
 
 	// Configuration 
-    $to = "russharrington@me.com,michael@thefisherhome.net"; // Your email address. 
+    $to = "russharrington@me.com"; // Your email address. 
     $subject = "New Signup from RussTalks.com"; // Email subject line 
     
     $email = $_REQUEST['email'];
